@@ -1,6 +1,6 @@
 # A Netlify CMS tutorial
 [Netlify](https://www.netlify.com/) is a headless CMS written in React.js that follows the [JAM](https://jamstack.org/) stack logic that fits surprisingly well in our dev workflow, as it can help us serve content and automate our deployments at the same time. In this tutorial we will try Netlify, install it locally, and then connect it to our github repository.
-With recent front-end Javascript and CSS framework explosion, Netlify has evolved around this rich ecosystem and became flexible enough to support pretty much every [popular static site generator out there](https://www.staticgen.com).
+With recent front-end Javascript and CSS framework explosion, Netlify has evolved around a rich ecosystem and became flexible enough to support pretty much every [popular static site generator out there](https://www.staticgen.com).
 
 ## Test Netlify from localhost without installation.
 1. Create the files required for netlify setup:
@@ -127,7 +127,7 @@ exclude:
   ```yml
   source "https://rubygems.org"
 
-  gem 'jekyll', '~> 3.4.0'
+  gem 'jekyll', '~> 3.6.2'
   ```
 
   - Install Jekyll and create the `Gemfile.lock` dependency file:
