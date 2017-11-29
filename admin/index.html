@@ -9,17 +9,6 @@
   </head>
 <body>
   <script src="https://unpkg.com/netlify-cms/dist/cms.js"></script>
-  <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", user => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
-  </script>
   <script src="./bundle.js"></script>
 </body>
 </html>
