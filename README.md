@@ -124,10 +124,12 @@ exclude:
   ```
 
   - In Jekyll's example create a `Gemfile` in the root of our project:
+  
   ```yml
-  source "https://rubygems.org"
 
+  source "https://rubygems.org"
   gem 'jekyll', '~> 3.6.2'
+
   ```
 
   - Install Jekyll and create the `Gemfile.lock` dependency file:
