@@ -1,0 +1,30 @@
+backend:
+  name: test-repo
+  # repo: snipcart/netlify-cms-snipcart
+  branch: master 
+
+media_folder: "img/uploads"
+
+collections: 
+  - name: "articles" # Used in routes
+    label: "Articles" # Used in the React UI
+    folder: "posts/" # Path to the documents
+    filter: # filter entries based on the value of a single field
+      field: language
+      value: en
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in front matter
+        - {name: "title", label: "Title", widget: "string"}
+        - {name: "slug", label: "Slug", widget: "string" }
+        - {label: "Publish Date", name: "date", widget: "datetime"}
+        - {label: "Featured Image", name: "thumbnail", widget: "image"}
+        - {name: "body", label: "Body", widget: "markdown"}
+        - {name: "layout", label: "Layout", widget: "hidden", default: "articledetail"}
+
+exclude:
+ - admin/index.js
+ - webpack.config.js
+ - package.json
+ - server.js
+ - README.md
