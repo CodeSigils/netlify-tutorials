@@ -189,6 +189,8 @@ exclude:
     branch: master
 ```
 
+3. For a more complete guide follow this [tutorial](https://github.com/netlify/netlify-cms/blob/master/docs/quick-start.md)
+
 ## Allways use Netlify-cli
 So far we have installed and tested minimal Netlify instance locally step by step just to get ourselves familiar with this great tool. 
 However from now on for installation, deployment and continuous integration we must learn how to use the [Netlify command tools](https://www.netlify.com/docs/cli/).
