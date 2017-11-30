@@ -6,8 +6,8 @@
   "author": "GT",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack && bundle exec jekyll serve",
-    "bld": "webpack && bundle exec jekyll build"
+    "dev": "webpack && jekyll serve",
+    "bld": "webpack && jekyll build"
   },
   "dependencies": {
     "netlify-cms": "^0.7.5"
