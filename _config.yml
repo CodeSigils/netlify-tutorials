@@ -41,6 +41,8 @@ plugins:
 #   - vendor/ruby/
 exclude:
  - admin/index.js
+ - server.js
+ - yarn.lock
  - webpack.config.js
  - package.json
  - README.md

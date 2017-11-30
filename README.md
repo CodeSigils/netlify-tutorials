@@ -53,13 +53,6 @@ collections:
         - {label: "Featured Image", name: "thumbnail", widget: "image"}
         - {name: "slug", label: "Slug", widget: "string" }
         - {name: "layout", label: "Layout", widget: "hidden", default: "articledetail"}
-
-exclude:
-  - admin/index.js
-  - webpack.config.js
-  - package.json
-  - server.js
-  - README.md
 ```
 
 **Note:** At this point we don't even need a module bundler like webpack or rollup, however we do need a server to serve our static files locally. Anyone of the following npm packages will do for now:
@@ -169,8 +162,8 @@ exclude:
   - Create scripts in `package.json` file:
   ```JSON
   "scripts": {
-    "dev": "webpack && jekyll serve",
-    "bld": "webpack && jekyll build"
+    "dev": "webpack && bundle exec jekyll serve",
+    "bld": "webpack && bundle exec jekyll build"
   },
   ```
 
