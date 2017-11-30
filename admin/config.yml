@@ -1,7 +1,7 @@
 backend:
-  name: git-gateway
+  name: github
   repo: CodeSigils/netlify-tutorials
-  site_domain: sigil-tuts.netlify.com
+  base_url: sigil-tuts.netlify.com
   branch: master 
 
 media_folder: "img/uploads" # Media files will be stored in the repo under static/images/uploads
