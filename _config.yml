@@ -39,3 +39,8 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude:
+ - admin/index.js
+ - webpack.config.js
+ - package.json
+ - README.md
