@@ -40,7 +40,7 @@ media_folder: "img"
 collections: 
   - name: "articles" # Used in routes
     label: "Article" # Used in the React UI
-    folder: "articles/first_article" # Path to the documents
+    folder: "posts" # Path to the documents
     filter: # filter entries based on the value of a single field
       field: language
       value: en
