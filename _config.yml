@@ -41,6 +41,7 @@ plugins:
 #   - vendor/ruby/
 exclude:
  - admin/index.js
+ - _site/node_modules
  - server.js
  - yarn.lock
  - webpack.config.js
