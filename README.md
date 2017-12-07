@@ -215,6 +215,7 @@ We have many options here. Here some of my favorites:
 ### 3. Learn how to use it with the static site generator of your choice: 
 
 Tutorials and links about how to use Netlify...
+- [A quick start from community](https://www.netlifycms.org/docs/quick-start)
 - [with Jekyll](https://www.netlify.com/blog/2015/10/28/a-step-by-step-guide-jekyll-3.0-on-netlify/)
 - [with Gitbook](https://www.netlify.com/blog/2015/12/08/a-step-by-step-guide-gitbook-on-netlify/)
 - [with Hugo](https://www.netlify.com/blog/2016/09/21/a-step-by-step-guide-victor-hugo-on-netlify/)
