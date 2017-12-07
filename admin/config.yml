@@ -8,9 +8,9 @@ media_folder: "images/uploads" # Media files will be stored in the repo under st
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
 collections: 
-  - name: "articles" # Used in routes
+  - name: "posts" # Used in routes
     label: "Articles" # Used in the React UI
-    folder: "_articles" # Path to the documents
+    folder: "_posts" # Path to the documents
     filter: # filter entries based on the value of a single field
       field: language
       value: en
@@ -22,4 +22,5 @@ collections:
         - {label: "Publish Date", name: "date", widget: "datetime"}
         - {label: "Featured Image", name: "thumbnail", widget: "image"}
         - {name: "body", label: "Body", widget: "markdown"}
-        - {name: "layout", label: "Layout", widget: "hidden", default: "article"}
+        - {name: "excerpt", label: "Excerpt", widget: "string"}
+        - {name: "layout", label: "Layout", widget: "hidden", default: "post"}
