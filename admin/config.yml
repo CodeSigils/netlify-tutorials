@@ -22,4 +22,4 @@ collections:
         - {label: "Publish Date", name: "date", widget: "datetime"}
         - {label: "Featured Image", name: "thumbnail", widget: "image"}
         - {name: "body", label: "Body", widget: "markdown"}
-        - {name: "layout", label: "Layout", widget: "hidden", default: "articledetail"}
+        - {name: "layout", label: "Layout", widget: "hidden", default: "post"}
