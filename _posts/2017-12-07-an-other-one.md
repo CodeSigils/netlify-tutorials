@@ -6,4 +6,4 @@ thumbnail: /images/uploads/63.jpg
 excerpt: some content
 layout: post
 ---
-Some Content
+Some new content edited from Netlify admin area
