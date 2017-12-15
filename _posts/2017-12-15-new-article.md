@@ -6,7 +6,9 @@ thumbnail: /images/uploads/63.jpg
 excerpt: Lorem Ipsum...
 layout: post
 ---
+
 ```html
+
 <script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", function (user) {
@@ -18,4 +20,5 @@ layout: post
     });
   }
 </script>
+
 ```
