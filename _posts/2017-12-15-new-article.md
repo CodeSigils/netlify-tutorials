@@ -6,46 +6,16 @@ thumbnail: /images/uploads/63.jpg
 excerpt: Lorem Ipsum...
 layout: post
 ---
-```
-<!-- <script>
-```
-
-```
+```html
+<script>
   if (window.netlifyIdentity) {
-```
+    window.netlifyIdentity.on("init", function (user) {
+      if (!user) {
+        window.netlifyIdentity.on("login", function () {
 
-```
-          window.netlifyIdentity.on("init", function (user) {
-```
-
-```
-            if (!user) {
-```
-
-```
-              window.netlifyIdentity.on("login", function () {
-```
-
-```
-                document.location.href = "/admin/";
-```
-
-```
-              });
-```
-
-```
-            }
-```
-
-```
-          });
-```
-
-```
-        }
-```
-
-```
-    </script>  -->
-```
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
