@@ -1,15 +1,15 @@
 backend:
   name: github
   repo: CodeSigils/netlify-tutorials
-  branch: master 
+  branch: master
   site_domain: sigil-tuts.netlify.com
   publish_mode: editorial_workflow
 
 media_folder: "images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
-collections: 
-  - name: "post" # Used in routes
+collections:
+  - name: "posts" # Used in routes
     label: "New Post" # Used in the React UI
     folder: "_posts" # Path to the documents
     create: true # Allow users to create new documents in this collection
