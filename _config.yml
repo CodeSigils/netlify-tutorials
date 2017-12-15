@@ -20,7 +20,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "sigil-tuts.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  CodeSigils
-api_key: 5229ad6bca67bdb0dae58ae7cabf171d6f16d3ed
 
 # Build settings
 markdown: kramdown
