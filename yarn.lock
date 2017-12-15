@@ -1541,7 +1541,7 @@ es6-iterator@^2.0.1, es6-iterator@~2.0.1:
     es5-ext "^0.10.35"
     es6-symbol "^3.1.1"
 
-es6-map@^0.1.3, es6-map@^0.1.4:
+es6-map@^0.1.3:
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/es6-map/-/es6-map-0.1.5.tgz#9136e0503dcc06a301690f0bb14ff4e364e949f0"
   dependencies:
@@ -1680,6 +1680,10 @@ execa@^0.7.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
+exenv@^1.2.0:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/exenv/-/exenv-1.2.2.tgz#2ae78e85d9894158670b03d47bec1f03bd91bb9d"
+
 expand-brackets@^0.1.4:
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/expand-brackets/-/expand-brackets-0.1.5.tgz#df07284e342a807cd733ac5af72411e581d1177b"
@@ -1788,17 +1792,9 @@ flatten@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/flatten/-/flatten-1.0.2.tgz#dae46a9d78fbe25292258cc1e780a41d95c03782"
 
-focus-trap-react@^3.0.3:
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/focus-trap-react/-/focus-trap-react-3.0.5.tgz#8fb381b92eafe075c2406297d1da618650d37143"
-  dependencies:
-    focus-trap "^2.0.1"
-
-focus-trap@^2.0.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/focus-trap/-/focus-trap-2.3.1.tgz#f4fb86cfe6da38dc652b373e9f42ba476eab1c14"
-  dependencies:
-    tabbable "^1.0.3"
+focus-group@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/focus-group/-/focus-group-0.3.1.tgz#e0f32ed86b0dabdd6ffcebdf898ecb32e47fedce"
 
 for-in@^1.0.1:
   version "1.0.2"
@@ -1961,7 +1957,7 @@ got@^6.7.1:
     unzip-response "^2.0.1"
     url-parse-lax "^1.0.0"
 
-gotrue-js@^0.9.11:
+gotrue-js@^0.9.15:
   version "0.9.15"
   resolved "https://registry.yarnpkg.com/gotrue-js/-/gotrue-js-0.9.15.tgz#ccddda083ba8fc75572c7e7817556be2b09b3ab4"
   dependencies:
@@ -2157,7 +2153,7 @@ hoek@2.x.x:
   version "2.16.3"
   resolved "https://registry.yarnpkg.com/hoek/-/hoek-2.16.3.tgz#20bb7403d3cea398e91dc4710a8ff1b8274a25ed"
 
-hoist-non-react-statics@^1.0.3, hoist-non-react-statics@^1.2.0:
+hoist-non-react-statics@^1.0.3:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-1.2.0.tgz#aa448cf0986d55cc40773b17174b7dd066cb7cfb"
 
@@ -2396,6 +2392,10 @@ is-glob@^2.0.0, is-glob@^2.0.1:
 is-hexadecimal@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/is-hexadecimal/-/is-hexadecimal-1.0.1.tgz#6e084bbc92061fbb0971ec58b6ce6d404e24da69"
+
+is-hotkey@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/is-hotkey/-/is-hotkey-0.1.1.tgz#b279a2fd108391be9aa93c6cb317f50357da549a"
 
 is-in-browser@^1.1.3:
   version "1.1.3"
@@ -2768,10 +2768,6 @@ markdown-table@^1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/markdown-table/-/markdown-table-1.1.1.tgz#4b3dd3a133d1518b8ef0dbc709bf2a1b4824bc8c"
 
-material-design-icons@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/material-design-icons/-/material-design-icons-3.0.1.tgz#9a71c48747218ebca51e51a66da682038cdcb7bf"
-
 math-expression-evaluator@^1.2.14:
   version "1.2.17"
   resolved "https://registry.yarnpkg.com/math-expression-evaluator/-/math-expression-evaluator-1.2.17.tgz#de819fdbcd84dccd8fae59c6aeb79615b9d266ac"
@@ -2955,15 +2951,14 @@ negotiator@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
 
-netlify-cms@^0.7.5:
-  version "0.7.5"
-  resolved "https://registry.yarnpkg.com/netlify-cms/-/netlify-cms-0.7.5.tgz#b1ffbb093b8e958e842224c41f2af48e4b1591eb"
+netlify-cms@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/netlify-cms/-/netlify-cms-1.0.2.tgz#377407371a2edf8fbf05c068fd2fd8f16aa85833"
   dependencies:
     classnames "^2.2.5"
     create-react-class "^15.6.0"
-    focus-trap-react "^3.0.3"
     fuzzy "^0.1.1"
-    gotrue-js "^0.9.11"
+    gotrue-js "^0.9.15"
     gray-matter "^3.0.6"
     history "^4.7.2"
     immutable "^3.7.6"
@@ -2972,27 +2967,28 @@ netlify-cms@^0.7.5:
     jwt-decode "^2.1.0"
     localforage "^1.4.2"
     lodash "^4.13.1"
-    material-design-icons "^3.0.1"
     mdast-util-definitions "^1.2.2"
     mdast-util-to-string "^1.0.4"
     moment "^2.11.2"
-    normalize.css "^4.2.0"
     prop-types "^15.5.10"
     react "^16.0.0"
+    react-aria-menubutton "^5.1.0"
     react-autosuggest "^9.3.2"
-    react-datetime "^2.6.0"
+    react-datetime "^2.11.0"
     react-dnd "^2.5.4"
     react-dnd-html5-backend "^2.5.4"
     react-dom "^16.0.0"
     react-frame-component "^2.0.0"
     react-immutable-proptypes "^2.1.0"
+    react-modal "^3.1.5"
     react-redux "^4.4.0"
     react-router-dom "^4.2.2"
     react-router-redux "^5.0.0-alpha.8"
-    react-sidebar "^2.2.1"
+    react-scroll-sync "^0.4.0"
     react-sortable-hoc "^0.6.8"
     react-split-pane "^0.1.66"
-    react-toolbox "^2.0.0-beta.12"
+    react-textarea-autosize "^5.2.0"
+    react-toggled "^1.1.2"
     react-topbar-progress-indicator "^2.0.0"
     react-transition-group "^2.2.1"
     react-waypoint "^7.1.0"
@@ -3008,12 +3004,12 @@ netlify-cms@^0.7.5:
     remark-stringify "^3.0.1"
     sanitize-filename "^1.6.1"
     semaphore "^1.0.5"
-    slate "^0.25.0"
-    slate-edit-list "^0.8.0"
-    slate-edit-table "^0.11.0"
-    slate-plain-serializer "^0.1.10"
-    slate-react "^0.1.10"
-    slate-soft-break "^0.4.0"
+    slate "^0.30.0"
+    slate-edit-list "^0.10.1"
+    slate-edit-table "^0.12.0"
+    slate-plain-serializer "^0.4.0"
+    slate-react "0.10.11"
+    slate-soft-break "^0.6.0"
     slug "^0.9.1"
     toml-j0.4 "^1.1.1"
     tomlify-j0.4 "^3.0.0-alpha.0"
@@ -3022,6 +3018,7 @@ netlify-cms@^0.7.5:
     unist-util-visit-parents "^1.1.1"
     url "^0.11.0"
     uuid "^3.1.0"
+    what-input "^5.0.3"
   optionalDependencies:
     fsevents "^1.0.14"
 
@@ -3114,10 +3111,6 @@ normalize-url@^1.4.0:
     prepend-http "^1.0.0"
     query-string "^4.1.0"
     sort-keys "^1.0.0"
-
-normalize.css@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-4.2.0.tgz#21d66cc557154d4379fd1e079ec7de58a379b099"
 
 npm-run-path@^2.0.0:
   version "2.0.2"
@@ -3695,10 +3688,6 @@ querystring@0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/querystring/-/querystring-0.2.0.tgz#b209849203bb25df820da756e747005878521620"
 
-ramda@^0.23.0:
-  version "0.23.0"
-  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.23.0.tgz#ccd13fff73497a93974e3e86327bfd87bd6e8e2b"
-
 randomatic@^1.1.3:
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/randomatic/-/randomatic-1.1.7.tgz#c7abe9cc8b87c0baa876b19fde83fd464797e38c"
@@ -3741,6 +3730,14 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-aria-menubutton@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/react-aria-menubutton/-/react-aria-menubutton-5.1.0.tgz#fa9bac43c02118d4eb60f9db6bbc5c20c34b658a"
+  dependencies:
+    focus-group "^0.3.1"
+    prop-types "^15.6.0"
+    teeny-tap "^0.2.0"
+
 react-autosuggest@^9.3.2:
   version "9.3.2"
   resolved "https://registry.yarnpkg.com/react-autosuggest/-/react-autosuggest-9.3.2.tgz#dd8c0fbe9c25aa94afe296180353647f6ecc10a7"
@@ -3757,16 +3754,9 @@ react-autowhatever@^10.1.0:
     react-themeable "^1.1.0"
     section-iterator "^2.0.0"
 
-react-css-themr@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/react-css-themr/-/react-css-themr-2.1.2.tgz#e017514e471c232f43a754a55b49d81faf5dafb8"
-  dependencies:
-    hoist-non-react-statics "^1.2.0"
-    invariant "^2.2.1"
-
-react-datetime@^2.6.0:
-  version "2.11.0"
-  resolved "https://registry.yarnpkg.com/react-datetime/-/react-datetime-2.11.0.tgz#6560a8e5b81f7e52986083dc2e8cb94bb74528ea"
+react-datetime@^2.11.0:
+  version "2.11.1"
+  resolved "https://registry.yarnpkg.com/react-datetime/-/react-datetime-2.11.1.tgz#11d15081dd7d6729284e21c1b8ea7b975e3bdc7e"
   dependencies:
     create-react-class "^15.5.2"
     object-assign "^3.0.0"
@@ -3806,6 +3796,14 @@ react-frame-component@^2.0.0:
 react-immutable-proptypes@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/react-immutable-proptypes/-/react-immutable-proptypes-2.1.0.tgz#023d6f39bb15c97c071e9e60d00d136eac5fa0b4"
+
+react-modal@^3.1.5:
+  version "3.1.8"
+  resolved "https://registry.yarnpkg.com/react-modal/-/react-modal-3.1.8.tgz#7d6b1958f44828babd2a1ce826c28fa40d026b0f"
+  dependencies:
+    exenv "^1.2.0"
+    prop-types "^15.5.10"
+    warning "^3.0.0"
 
 react-onclickoutside@^6.5.0:
   version "6.7.0"
@@ -3859,9 +3857,9 @@ react-router@^4.2.0:
     prop-types "^15.5.4"
     warning "^3.0.0"
 
-react-sidebar@^2.2.1:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/react-sidebar/-/react-sidebar-2.3.2.tgz#ec140bea8a6f5fa3d8ea7a56479665b44cf4f9cf"
+react-scroll-sync@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/react-scroll-sync/-/react-scroll-sync-0.4.0.tgz#c824f86dd1322f66f973c74a9fda9dad03fdcf11"
 
 react-sortable-hoc@^0.6.8:
   version "0.6.8"
@@ -3888,22 +3886,21 @@ react-style-proptype@^3.0.0:
   dependencies:
     prop-types "^15.5.4"
 
+react-textarea-autosize@^5.2.0:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/react-textarea-autosize/-/react-textarea-autosize-5.2.1.tgz#2b78f9067180f41b08ac59f78f1581abadd61e54"
+  dependencies:
+    prop-types "^15.6.0"
+
 react-themeable@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/react-themeable/-/react-themeable-1.1.0.tgz#7d4466dd9b2b5fa75058727825e9f152ba379a0e"
   dependencies:
     object-assign "^3.0.0"
 
-react-toolbox@^2.0.0-beta.12:
-  version "2.0.0-beta.12"
-  resolved "https://registry.yarnpkg.com/react-toolbox/-/react-toolbox-2.0.0-beta.12.tgz#1d9dd7cc41e3b35dabdce5eb100a8068eee88c45"
-  dependencies:
-    classnames "^2.2.5"
-    core-js "^2.4.0"
-    ramda "^0.23.0"
-    react-css-themr "^2.1.2"
-    react-style-proptype "^3.0.0"
-    react-transition-group "^1.1.3"
+react-toggled@^1.1.2:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-toggled/-/react-toggled-1.2.0.tgz#4bd777c989d007d01fbeea766221477848b9c99f"
 
 react-topbar-progress-indicator@^2.0.0:
   version "2.0.0"
@@ -4394,69 +4391,70 @@ slash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
 
-slate-base64-serializer@^0.1.9:
-  version "0.1.22"
-  resolved "https://registry.yarnpkg.com/slate-base64-serializer/-/slate-base64-serializer-0.1.22.tgz#548e589178c75653004168004aad152f1976dd35"
+slate-base64-serializer@^0.2.8:
+  version "0.2.17"
+  resolved "https://registry.yarnpkg.com/slate-base64-serializer/-/slate-base64-serializer-0.2.17.tgz#d38fead65194824cb2caa7fcba0f0620b1627a16"
   dependencies:
     isomorphic-base64 "^1.0.2"
 
-slate-dev-logger@^0.1.10, slate-dev-logger@^0.1.12, slate-dev-logger@^0.1.14:
+slate-dev-logger@^0.1.32, slate-dev-logger@^0.1.33, slate-dev-logger@^0.1.36:
   version "0.1.36"
   resolved "https://registry.yarnpkg.com/slate-dev-logger/-/slate-dev-logger-0.1.36.tgz#ecdb37dbf944dfc742bab23b6a20d5a0472db95e"
 
-slate-edit-list@^0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/slate-edit-list/-/slate-edit-list-0.8.0.tgz#3f8904fc9cb308d3c614efa5586953a6de6a4608"
+slate-edit-list@^0.10.1:
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/slate-edit-list/-/slate-edit-list-0.10.1.tgz#9c6a142a314b0ff22a327f1b50c8f5c85468cb17"
 
-slate-edit-table@^0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/slate-edit-table/-/slate-edit-table-0.11.0.tgz#4ab175a02146ec1c45a4a2826eaa66b5db0d2266"
+slate-edit-table@^0.12.0:
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/slate-edit-table/-/slate-edit-table-0.12.0.tgz#9163e67b8025c3c09d6037eb76cb5e652b65dd47"
 
-slate-plain-serializer@^0.1.10:
-  version "0.1.14"
-  resolved "https://registry.yarnpkg.com/slate-plain-serializer/-/slate-plain-serializer-0.1.14.tgz#19f6cd9a47d2e7db93d928a8adae10ceb779e743"
+slate-plain-serializer@^0.4.0, slate-plain-serializer@^0.4.6:
+  version "0.4.15"
+  resolved "https://registry.yarnpkg.com/slate-plain-serializer/-/slate-plain-serializer-0.4.15.tgz#bb4ff0594b7c56b88158d52ac99196972e5d0ba9"
   dependencies:
-    slate-dev-logger "^0.1.14"
+    slate-dev-logger "^0.1.36"
 
-slate-prop-types@^0.1.9:
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/slate-prop-types/-/slate-prop-types-0.1.13.tgz#2045d73b12a2fe7205bd6e8792ff1c5b06420fef"
+slate-prop-types@^0.4.6:
+  version "0.4.15"
+  resolved "https://registry.yarnpkg.com/slate-prop-types/-/slate-prop-types-0.4.15.tgz#1cdfef01e33ac6d7b43142c59ece340b7b52a888"
   dependencies:
-    slate-dev-logger "^0.1.14"
+    slate-dev-logger "^0.1.36"
 
-slate-react@^0.1.10:
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/slate-react/-/slate-react-0.1.10.tgz#1d5886fb89bc9f03cb5cf15b74c3e8b9600d52e7"
+slate-react@0.10.11:
+  version "0.10.11"
+  resolved "https://registry.yarnpkg.com/slate-react/-/slate-react-0.10.11.tgz#5fbfbf0da2dd726df468d788d2bd81dd578a15a3"
   dependencies:
     debug "^2.3.2"
     get-window "^1.1.1"
+    is-hotkey "^0.1.1"
     is-in-browser "^1.1.3"
     is-window "^1.0.2"
     keycode "^2.1.2"
     prop-types "^15.5.8"
+    react-immutable-proptypes "^2.1.0"
     react-portal "^3.1.0"
     selection-is-backward "^1.0.0"
-    slate-base64-serializer "^0.1.9"
-    slate-dev-logger "^0.1.10"
-    slate-plain-serializer "^0.1.10"
-    slate-prop-types "^0.1.9"
+    slate-base64-serializer "^0.2.8"
+    slate-dev-logger "^0.1.32"
+    slate-plain-serializer "^0.4.6"
+    slate-prop-types "^0.4.6"
 
-slate-soft-break@^0.4.0:
-  version "0.4.4"
-  resolved "https://registry.yarnpkg.com/slate-soft-break/-/slate-soft-break-0.4.4.tgz#f1754800c004010dc65dd174e8e06cbe440f4368"
+slate-soft-break@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/slate-soft-break/-/slate-soft-break-0.6.0.tgz#1e44815b7ff4ddada055bba14cd0d2d4ef0fd463"
 
-slate@^0.25.0:
-  version "0.25.4"
-  resolved "https://registry.yarnpkg.com/slate/-/slate-0.25.4.tgz#04c65b80ff2db4310bf65bf211ff57f62cdf92ac"
+slate@^0.30.0:
+  version "0.30.7"
+  resolved "https://registry.yarnpkg.com/slate/-/slate-0.30.7.tgz#98b5e4d8529775eaf2e7e3a2306db8cc49034772"
   dependencies:
     debug "^2.3.2"
     direction "^0.1.5"
-    es6-map "^0.1.4"
     esrever "^0.2.0"
     is-empty "^1.0.0"
     is-plain-object "^2.0.4"
     lodash "^4.17.4"
-    slate-dev-logger "^0.1.12"
+    slate-dev-logger "^0.1.33"
     type-of "^2.0.1"
 
 slug@^0.9.1:
@@ -4689,10 +4687,6 @@ symbol-observable@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.0.4.tgz#29bf615d4aa7121bdd898b22d4b3f9bc4e2aa03d"
 
-tabbable@^1.0.3:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/tabbable/-/tabbable-1.1.1.tgz#88618caa0dc76e877572a678f0ad97519bba6761"
-
 tapable@^0.2.7:
   version "0.2.8"
   resolved "https://registry.yarnpkg.com/tapable/-/tapable-0.2.8.tgz#99372a5c999bf2df160afc0d74bed4f47948cd22"
@@ -4717,6 +4711,10 @@ tar@^2.2.1:
     block-stream "*"
     fstream "^1.0.2"
     inherits "2"
+
+teeny-tap@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/teeny-tap/-/teeny-tap-0.2.0.tgz#167e645182d06ac222d62bb2ab67947a70a58a68"
 
 term-size@^1.2.0:
   version "1.2.0"
@@ -5095,6 +5093,10 @@ webpack@^3.8.1:
     watchpack "^1.4.0"
     webpack-sources "^1.0.1"
     yargs "^8.0.2"
+
+what-input@^5.0.3:
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/what-input/-/what-input-5.0.3.tgz#340471c6157d592b61ac9d42a611941a110dfec2"
 
 whatwg-fetch@>=0.10.0:
   version "2.0.3"
