@@ -6,8 +6,8 @@
   "author": "GT",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack && jekyll serve",
-    "bld": "webpack && jekyll build"
+    "dev": "webpack && bundle exec jekyll serve",
+    "bld": "webpack && bundle exec jekyll build"
   },
   "dependencies": {
     "babel-loader": "^7.1.2",
