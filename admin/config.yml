@@ -13,6 +13,7 @@ collections:
     label: "New Post" # Used in the React UI
     folder: "_posts" # Path to the documents
     create: true # Allow users to create new documents in this collection
+    widget: list,
     filter: # filter entries based on the value of a single field
       field: language
       value: en
